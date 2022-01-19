@@ -7,12 +7,12 @@ h1 {
 color: rgb(27, 128, 27);
 font-size: xx-large;
 background-color: rgb(207, 207, 207);
-padding-left: 11em;
+text-align: center;
 font-family: sans-serif;
 }
 h2{
 color:rgb(27, 34, 128);
-padding-left: 16.5em;
+text-align: center;
 font-family: sans-serif;
 }
 h3{
