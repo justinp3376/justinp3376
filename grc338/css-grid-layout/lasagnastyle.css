@@ -1,0 +1,86 @@
+/*CSS DOCUMENT*/
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+}
+
+body {
+	background-color: rgb(255,136,2);
+}
+
+div.container {
+	background-color: white;
+}
+
+header {
+	background-color: rgb(255,136,2); 
+	padding: 1.5em; 
+}
+main {
+	padding: 2em;
+}
+
+h1 {
+	color: white; 
+	font-family: Sutro,serif;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 0.15em;
+}
+
+h2 {
+	color: rgb(252, 221, 153);
+	font-family: Sutro,serif;
+	font-weight: 300;
+	font-style: normal;
+	margin-bottom: 0.01em;
+}
+
+
+h3 {
+	color: rgb(255,136,2);
+	font-family: Sutro,serif;
+	font-weight: 500;
+	font-style: normal;
+	padding: 0em 0em 0.5em 0em;
+	text-transform: uppercase; 
+	letter-spacing: 0.1em;
+}
+
+li {
+	margin: 0.15em 0em 1em 0em;
+}
+
+figcaption {
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: italic; 
+	color: black;
+	padding: 0.5em 1em 0em 2.5em;
+}
+
+li {
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+ul, ol {
+	margin: 0em;
+}
+
+footer {
+	background-color: rgb(255,136,2);
+	color: white;
+	padding: 1em 0em 1em 1em
+}
+
+p {
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(252, 238, 207);
+}
