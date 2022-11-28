@@ -1,4 +1,3 @@
-/*CSS document*/
 
 div.container {
     max-width: 70em;
@@ -53,7 +52,9 @@ font-style: normal;
 color: #65b0e2;
 
 }
-
+footer{
+    grid-column: 1/3;
+}
 
 figure {
     display: block;
@@ -79,7 +80,7 @@ ul {
     list-style-type: none;
     padding: 0;
 }
-li {
+nav li {
     display: inline;
 }
 
@@ -91,6 +92,9 @@ li a {
 
 }
 
+main.newsletter ul{
+    padding: 0;
+}
 
 a:link, a:visited, a:active {
     color: #000000;
@@ -127,7 +131,27 @@ main.gallery{
 div.photocontainer input {
     display: none;
 }
+main.newsletter{
+    display: block;
+}
 
+    section.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 3 0 25em;
+	box-sizing: border-box;
+}
+
+section.personal-info ul li label {
+	flex: 1 0 6em;
+}
 
 @media only screen and (min-width: 40em){
     div.container{
@@ -151,23 +175,7 @@ div.photocontainer input {
         grid-column: 1/2;
 
     }
-    section.personal-info ul li {
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 1em;
-}
 
-section.personal-info ul li input[type="text"],
-section ul li input[type="email"],
-section ul li input[type="tel"],
-section ul li select {
-	flex: 3 0 25em;
-	box-sizing: border-box;
-}
-
-section.personal-info ul li label {
-	flex: 1 0 15em;
-}
 
     section.mainstory{
         grid-column: 1/3;
@@ -190,4 +198,3 @@ section.personal-info ul li label {
         padding-top: 1em;
 
     }
-}
